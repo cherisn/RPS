@@ -74,10 +74,4 @@ Feel free to fork it, tweak it, and share it!
 
 Thanks for checking this out — now go win some rounds! 🎯
 
----
 
-Let me know if you want to add:
-- A profile badge  
-- Screenshots  
-- GitHub Pages link  
-- Or a "Contribute" section to make it collaborative!
