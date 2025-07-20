@@ -23,6 +23,9 @@ else:
 
 """
 if 1<=player<=3:
+    choices = {1: "Rock", 2: "Paper", 3: "Scissors"}  
+    print(f"Computer chose: {choices[computer]}")
+    print(f"You chose: {choices[player]}")
     if player == computer:
         print("It's a tie!")
     elif player==Rock and computer==Paper:
@@ -39,9 +42,8 @@ if 1<=player<=3:
         print("Scissors cut Paper, you win!")
     else:
         print("Invalid choice! Please select a number between 1 and 3.")
-    choices = {1: "Rock", 2: "Paper", 3: "Scissors"}    
-    print(f"Computer chose: {choices[computer]}")
-    print(f"You chose: {choices[player]}")
+  
+
     print("Thanks for playing!")
 
 else:
